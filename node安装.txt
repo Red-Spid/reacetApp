@@ -1,0 +1,16 @@
+echo %path%   查看path 配置
+npm config set prefix "E:\cmdwindow\npmInstall\node_global"
+npm config set cache "E:\cmdwindow\npmInstall\node_cache"
+
+npm config set registry https://registry.npm.taobao.org
+vs Code
+1.将powershell切换为管理员模式下
+	Start-Process powershell -Verb runAs
+2.set-ExecutionPolicy RemoteSigned
+	y 
+
+
+$ cnpm install -g create-react-app
+$ create-react-app my-app
+$ cd my-app/
+$ npm start
